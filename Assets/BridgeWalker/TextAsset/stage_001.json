@@ -1,0 +1,508 @@
+{
+    "stageId": "new_stage",
+    "stageName": "New Stage",
+    "width": 10,
+    "height": 10,
+    "cells": [
+        {
+            "x": 0,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "cellType": "Empty"
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "cellType": "Empty"
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "cellType": "Empty"
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "cellType": "Bridge"
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "cellType": "Empty"
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "cellType": "Empty"
+        }
+    ]
+}

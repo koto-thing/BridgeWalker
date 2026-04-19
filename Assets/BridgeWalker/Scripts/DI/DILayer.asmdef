@@ -1,0 +1,21 @@
+{
+    "name": "DILayer",
+    "rootNamespace": "",
+    "references": [
+        "GUID:31eab45b03a4cff49b63b05ce51faf6b",
+        "GUID:5618938c7a82b4b4a8483eac4e2db2ff",
+        "GUID:a8432d4605203954089563e13c9ec728",
+        "GUID:7883abbfae6490e458a7b02eb83f7ebb",
+        "GUID:6a53efb8893a8664dbc382d9a5db5a75",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "DomainLayer",
-        "InfrastructureLayer"
+        "UniTask",
+        "R3.Unity"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

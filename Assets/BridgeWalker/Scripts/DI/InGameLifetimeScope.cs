@@ -1,3 +1,4 @@
+using BridgeWalker.Scripts.Infrastructure.Services;
 using VContainer;
 using VContainer.Unity;
 
@@ -7,7 +8,7 @@ namespace BridgeWalker.Scripts.DI
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            
+            builder.Register<StageCreationService>(Lifetime.Scoped);
         }
     }
 }

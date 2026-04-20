@@ -2,8 +2,13 @@
     "name": "InfrastructureLayer",
     "rootNamespace": "",
     "references": [
+        "GUID:31eab45b03a4cff49b63b05ce51faf6b",
         "GUID:5618938c7a82b4b4a8483eac4e2db2ff",
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:0c752da273b17c547ae705acf0f2adf2",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

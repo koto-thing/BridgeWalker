@@ -6,7 +6,7 @@ namespace BridgeWalker.Scripts.Infrastructure.Factories
     {
         public Stage Create(float width, float height)
         {
-            return new Stage(width, height);
+            return default;
         }
     }
 }

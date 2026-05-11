@@ -389,7 +389,17 @@ MonoBehaviour:
   BridgeSize: 1
   StageParent: {fileID: 1969949032}
   BridgePrefab: {fileID: 6604499713824677808, guid: 57b039c7f67b3364aa50179578c88fec, type: 3}
+  BridgeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  PlayerCharacter: {fileID: 4703050758075231597, guid: 771aae1beebcded4fa2f17b00d03b206, type: 3}
   StageData: {fileID: 4900000, guid: ad04374383e24858aea65d1337c81843, type: 3}
+  createdStageData:
+    stageId: 
+    stageName: 
+    width: 0
+    height: 0
+    cells: []
 --- !u!4 &415787122
 Transform:
   m_ObjectHideFlags: 0

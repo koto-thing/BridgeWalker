@@ -1,4 +1,5 @@
-﻿using BridgeWalker.Scripts.Infrastructure.Services;
+﻿using BridgeWalker.Scripts.Application.Interfaces;
+using BridgeWalker.Scripts.Infrastructure.Services;
 using VContainer;
 using VContainer.Unity;
 
@@ -19,6 +20,8 @@ namespace BridgeWalker.Scripts.DI
             
             // UnityのAPI関係
             builder.Register<SceneTransitionService>(Lifetime.Singleton);
+            builder.Register<IAssetLoadService, AssetLoadService>(Lifetime.Singleton);
+            builder.Register<IInstantiateService, InstantiateService>(Lifetime.Singleton);
         }
     }
 }

@@ -1,12 +1,19 @@
 ﻿using System;
+using BridgeWalker.Scripts.Application.Interfaces;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace BridgeWalker.Scripts.Infrastructure.Services
 {
     public class JsonUtilityService
     {
+        private readonly IAssetLoadService _assetLoadService;
+
+        public JsonUtilityService(IAssetLoadService assetLoadService)
+        {
+            _assetLoadService = assetLoadService;
+        }
+
         public async UniTask<T> ConvertJsonToAnyObjectAsync<T>(string addressablesJsonKey)
         {
             if (string.IsNullOrEmpty(addressablesJsonKey))
@@ -15,8 +22,7 @@ namespace BridgeWalker.Scripts.Infrastructure.Services
                 return default;
             }
 
-            var handle = Addressables.LoadAssetAsync<TextAsset>(addressablesJsonKey);
-            var jsonAsset = await handle.Task;
+            var jsonAsset = await _assetLoadService.LoadAssetAsync<TextAsset>(addressablesJsonKey);
 
             try
             {
@@ -43,7 +49,10 @@ namespace BridgeWalker.Scripts.Infrastructure.Services
             }
             finally
             {
-                Addressables.Release(handle);
+                if (jsonAsset != null)
+                {
+                    _assetLoadService.ReleaseAsset(jsonAsset);
+                }
             }
         }
         

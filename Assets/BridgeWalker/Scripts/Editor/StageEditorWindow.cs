@@ -145,7 +145,7 @@ namespace BridgeWalker.Scripts.Editor
             }
         }
 
-        private StageCellDto GetCell(int x, int y)
+        private BridgeDto GetCell(int x, int y)
         {
             return _stageData.cells.Find(c => c.x == x && c.y == y);
         }
@@ -167,7 +167,7 @@ namespace BridgeWalker.Scripts.Editor
             return type.Substring(0, 1);
         }
 
-        private void CycleCellType(StageCellDto cell)
+        private void CycleCellType(BridgeDto cell)
         {
             switch (cell.cellType)
             {
@@ -219,19 +219,19 @@ namespace BridgeWalker.Scripts.Editor
 
         private void InitializeCells()
         {
-            _stageData.cells = new List<StageCellDto>();
+            _stageData.cells = new List<BridgeDto>();
             for (int y = 0; y < _stageData.height; y++)
             {
                 for (int x = 0; x < _stageData.width; x++)
                 {
-                    _stageData.cells.Add(new StageCellDto { x = x, y = y, cellType = "Empty" });
+                    _stageData.cells.Add(new BridgeDto { x = x, y = y, cellType = "Empty", bridgeSize = 1.0f });
                 }
             }
         }
 
         private void ResizeCells()
         {
-            var newCells = new List<StageCellDto>();
+            var newCells = new List<BridgeDto>();
             for (int y = 0; y < _stageData.height; y++)
             {
                 for (int x = 0; x < _stageData.width; x++)
@@ -243,7 +243,7 @@ namespace BridgeWalker.Scripts.Editor
                     }
                     else
                     {
-                        newCells.Add(new StageCellDto { x = x, y = y, cellType = "Empty" });
+                        newCells.Add(new BridgeDto { x = x, y = y, cellType = "Empty", bridgeSize = 1.0f });
                     }
                 }
             }

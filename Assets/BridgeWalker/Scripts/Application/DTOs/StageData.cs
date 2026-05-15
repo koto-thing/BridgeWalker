@@ -13,17 +13,18 @@ namespace BridgeWalker.Scripts.Application.DTOs
         public string stageName;
         public int width;
         public int height;
-        public List<StageCellDto> cells = new List<StageCellDto>();
+        public List<BridgeDto> cells = new List<BridgeDto>();
     }
 
     /// <summary>
     /// 各セルの情報を保持するDTO
     /// </summary>
     [Serializable]
-    public class StageCellDto
+    public class BridgeDto
     {
         public int x;
         public int y;
         public string cellType; // "Bridge", "Goal", "Empty" など
+        public float bridgeSize;
     }
 }
